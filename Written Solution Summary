@@ -1,0 +1,26 @@
+In order to better understand what potential sales could be if Jack started his discount 7 days out 
+from the purchase deadline, a simulation was run which utilized the information that on any 
+given discount day, 20% of customer from the remaining pool could purchase the product
+(assuming normal distribution) with a standard deviation of 5%. A week of sales data was 
+simulated 1000 times over to produce predictions on how many units would be sold in week if 
+Jack sets the discount price for all 7 days. Over 1000 simulated weeks, if jack set his price to $38 
+for 7 days leading up to the deadline, he could expect to see 396 box sold, for a profit of around
+$7100. To better help Jack understand which day he should start his discounted rate on during the 7 days 
+leading up to the deadline, a simulation was performed to get the profit and sales information for 
+every possible discount start day. The simulation performed allows me to analyze how the profit 
+and total sales changes depending on the discount start date. Based on running this simulation 
+1000 times, starting the discounted price on the 5
+th day would provide the maximum profit for 
+Jack of around $7855, with total sales for week expected to be around 333.
+When analyzing the confidence intervals for the simulated weekly profits in varying discount
+start dates I focused on starting the discount on day 5 as it was the most profitable, and also 
+analyzed the CI of its neighbouring values for day 4 and 6. For day 5, the upper limit is around
+$7,890 and the lower limit is around $7,820. The average profit value for day 4 does not fall 
+within this range as it is $7,791. The average profit for day 6 is $7,840, this does fall within the 
+upper and lower CI of day 5, meaning that I cannot definitively say that day 5 is the optimal day 
+to begin the discount. The upper limit for day 6 is $7,874 and the lower limit is $7,805, the 
+average value for day 5 falls within this range. The findings from analyzing the CI of day 
+discount start dates of 4,5 and 6 lead me to not fully trust that day 5 is the absolute best day to 
+start the discount, as it may be day 6. To solve this issue more trails would be needed in the 
+simulation until the values upper and lower limits were such that the average values of other start
+date options were not within other options limits.
