@@ -1,4 +1,4 @@
-# Pricing-Optimization-Project
+# Pricing-Optimization-Project - Excel
 Pricing optimization simulation to which provides insight into possible outcomes for different sale and pricing scenarios in order to help optimize operations. Here is the complete outlined problem and scenario: 
 Jack runs a subscription cookie business where customers pay a monthly subscription and
 receive deliveries every month. Around holidays they also run a special for an additional box, which
